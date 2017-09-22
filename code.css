@@ -20,7 +20,6 @@
     padding-left: 10px!important;
     border-radius: 5px!important;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
-    transition: width 0.2s ease!important, ;
 }
 .chat form .typing {
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
@@ -28,6 +27,10 @@
 .layer.animating:first-of-type .typing, .layer.stop-animations:first-of-type .typing {
     position: absolute;
     top: -50px!important;
+}
+.dark-elevation-high, .theme-dark .elevation-high {
+    position: relative;
+    bottom: -70px!important;
 }
 .layer.animating:first-of-type .bf-toolbar .bf-arrow, .layer.stop-animations:first-of-type .bf-toolbar .bf-arrow {
     display: none!important;
