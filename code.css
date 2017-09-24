@@ -85,8 +85,11 @@
     animation:opacity 300ms ease!important;
 }
 .layer.stop-animations:first-of-type  .embed-color-pill {
-    top: 3.5px;
+    top: 3.5px; 
 }
 .layer.animating, .layer.stop-animations {
     transition:all 0.00001s!important;
+}
+.embed-color-pill {
+    height:calc(100% - 7px)
 }
