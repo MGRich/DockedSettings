@@ -88,5 +88,5 @@
     top: 4px;
 }
 .layer.animating, .layer.stop-animations {
-    transition:all 0.00001s;
+    transition:all 0.00001s!important;
 }
