@@ -87,3 +87,6 @@
 .layer.stop-animations:first-of-type  .embed-color-pill {
     top: 4px;
 }
+.layer.animating {
+    transition:all 0.00001s;
+}
