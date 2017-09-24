@@ -84,3 +84,6 @@
     opacity:1!important;
     animation:opacity 300ms ease!important;
 }
+.layer.stop-animations:first-of-type  .embed-color-pill {
+    top: 4px;
+}
