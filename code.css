@@ -88,5 +88,8 @@
     top: 3.5px; 
 }
 .layer.animating, .layer.stop-animations {
-    transition:all 0.00001s!important;
+    animation:none!important;
+}
+.layer.stop-animations .embed-color-pill {
+    display:none!important;
 }
