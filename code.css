@@ -91,6 +91,6 @@
 .layer.animating, .layer.stop-animations {
     animation:none!important;
 }
-.layer.stop-animations .embed-color-pill {
+.layer.stop-animations .embed-color-pil, .layer.stop-animations .unread-2TDDFN {
     display:none!important;
 }
