@@ -7,7 +7,7 @@
 .layer-kosS71.stop-animations~.layer-kosS71:hover {
     top:calc(0px + 30px);
 }
-.layer-kosS71:first-of-type, .layer-kosS71.stop-animations:first-of-type {
+.app .layer-kosS71:first-of-type, .app .layer-kosS71.stop-animations:first-of-type {
     transform: scale(1)!important;
     opacity:1 !important;
 }
