@@ -1,96 +1,13 @@
-.layer.animating:first-of-type  {
-    opacity: 1!important;
-    transform: scale(1)!important;
-    z-index:1;
-}
-.layer.stop-animations:first-of-type{
-    opacity: 1!important;
-    transform: scale(1)!important;
-    z-index:1;
-}
-.layer.stop-animations:first-of-type .bf-toolbar {
-    top:calc(100% - 100px)!important;
+.layer-kosS71.stop-animations~.layer-kosS71 {
     position: absolute;
-    left: 15px!important;
-    width: calc(100% - 40px)!important; 
-    max-width: 425px!important;
-    background: #333!important;
-    padding: 5px!important;
-    padding-right: 10px!important;
-    padding-left: 10px!important;
-    border-radius: 5px!important;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
+    width: 700px;
+    height:calc(100% - 50px);
+    top:calc(100% - 50px);   
 }
-.chat form .typing {
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.31);
+.layer-kosS71.stop-animations~.layer-kosS71:hover {
+    top:calc(0px + 30px);
 }
-.layer.animating:first-of-type .typing, .layer.stop-animations:first-of-type .typing {
-    position: absolute;
-    top: -50px!important;
-}
-.dark-elevation-high, .theme-dark .elevation-high {
-    position: relative;
-    bottom: -70px!important;
-}
-.layer.animating:first-of-type .bf-toolbar .bf-arrow, .layer.stop-animations:first-of-type .bf-toolbar .bf-arrow {
-    display: none!important;
-}
-.theme-dark .ui-standard-sidebar-view {
-    position: fixed;
-    left: calc(100% - 60px);
-    transition: all 0.3s ease!important;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    height: 86%;
-    width:900px;
-    padding: 0!important;  
-    background:transparent;
-}
-.theme-dark .ui-standard-sidebar-view .sidebar-region {
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);  
-} 
-.theme-dark .ui-standard-sidebar-view .content-region, #bd-settingspane-container {
-    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);  
-    width: 300px!important;
-}
-#bd-settingspane-container .scroller-wrap .scroller {
-    width:600px!important;
-}
-#bd-settingspane-container .switchWrapper-3sSQdm, #bd-settingspane-container .ui-switch-wrapper {
-    bottom:90px!important;
-}
-.bda-slist li div:not(.bda-right):nth-of-type(2) form .switchWrapper-3sSQdm, .bda-slist li div:not(.bda-right):nth-of-type(2) form .ui-switch-wrapper {
-    top:0px!important;
-}
-#bd-settingspane-container .ui-switch-item .switchWrapper-3sSQdm, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper  {
-    top:0px!important;
-}
-.theme-dark .ui-standard-sidebar-view:hover {
-    position: fixed;
-    left: calc(100% - 800px);
-    transition: all 0.3s ease!important;
-}
-.layer:not(.stop-animations)+.layer.animating .ui-standard-sidebar-view {
-  opacity: 1!important;
-}
-.layer.stop-animations+.layer .ui-standard-sidebar-view {
-    animation:scale 250ms cubic-bezier(.2,0,0,1.15);
-    transform: scale(1);
-    opacity: 1;
-}
-.layer.stop-animations+.layer{
-    opacity:1!important;
-    animation:opacity 300ms ease!important;
-}
-.layer.stop-animations:first-of-type  .embed-color-pill {
-    top: 3.5px; 
-}
-.layer.animating, .layer.stop-animations {
-    animation:none!important;
-}
-.layer.stop-animations .embed-color-pil, .layer.stop-animations .unread-2TDDFN {
-    display:none!important;
+.layer-kosS71.stop-animations:first-of-type {
+    transform: scale(1)!important;
+    opacity:1 !important;
 }
